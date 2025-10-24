@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-
-<html>
-  <head>
-    <title>Lime Juice</title>
-  </head>
-  <body>
-    <h1>Lime Juice</h1>
-    <a href="#">Programming/Cybersecurity Work</a>
-    <a href="#">Artworks</a>
-  </body>
-
-</html>
+---
+layout: layout.html
+title: Blog
+---
+{% for blog in collections.blogs %}
+    <h2><a href="{{ blog.url }}">{{ blog.data.title }}</a></h2>
+    <em>{{ blog.date | date: "%Y-%m-%d" }}</em>
+{% endfor %}
