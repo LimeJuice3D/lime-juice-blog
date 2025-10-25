@@ -6,7 +6,7 @@
     <title>Lime Juice</title>
     <link rel="stylesheet" href="/assets/css/default.css">
   </head>
-  <body>
+  <body class="{{ bg-image }}">
     <header>
       <h1>Lime Juice</h1>
       <div class="menu">
@@ -16,8 +16,10 @@
       </div>
     </header>
     <main>
-      <h2>{{ title }}</h2>
-      {{ content }}
+      <div class="blogs">
+        <h2>{{ title }}</h2>
+        {{ content }}
+      </div>
     </main>
   </body>
 </html>
