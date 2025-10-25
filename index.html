@@ -2,7 +2,8 @@
 layout: layout.html
 title: Blog
 ---
-{% for blog in collections.blogs %}
-    <h2><a href="{{ blog.url }}">{{ blog.data.title }}</a></h2>
+{% for blog in collections.blogs reversed %}
+    <h3><a href="{{ blog.url }}">{{ blog.data.title }}</a></h3>
     <em>{{ blog.date | date: "%Y-%m-%d" }}</em>
+    <p>{{ blog.content }}</p>
 {% endfor %}

@@ -1,0 +1,55 @@
+body {
+  background-color: #3B3B3B;
+  margin: 0px;
+  font-family: Arial;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  margin: 0px;
+  padding: 25px 25px 25px 25px;
+}
+
+h2 {
+  color: white;
+  margin: 0px 0px 10px 0px;
+}
+
+em {
+  color: white;
+  font-size: 14px;
+}
+
+p {
+  color: white;
+  font-size: 14px;
+}
+
+header {
+  background-color: #212121;
+  padding: 0px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 25px;
+}
+
+div.menu {
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  padding: 0px;
+}
+
+a.menu {
+  padding: 10px;
+  display: table-cell;
+  text-align: center;
+  margin: 10px;
+}
