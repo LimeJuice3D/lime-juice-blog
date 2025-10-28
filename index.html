@@ -3,8 +3,8 @@ layout: layout.html
 title: Blog
 bg-image: bg1
 ---
-{% for blog in collections.blogs reversed %}
-<h3><a href="{{ blog.url }}">{{ blog.data.title }}</a></h3>
-<em>{{ blog.date | date: "%Y-%m-%d" }}</em>
-<p>{{ blog.content }}</p>
+{% for b in collections.blog reversed %}
+<h3><a href="{{ b.url }}">{{ b.data.title }}</a></h3>
+<em>{{ b.date | date: "%Y-%m-%d" }}</em>
+<p>{{ b.content }}</p>
 {% endfor %}

@@ -1,5 +1,5 @@
 ---
-tags: blogs
+tags: blog
 title: Second post
 ---
 More text.

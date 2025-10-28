@@ -1,7 +1,7 @@
 body {
   background-color: #3B3B3B;
   margin: 0px;
-  font-family: Arial;
+  font-family: Tahoma, Arial;
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,6 +10,10 @@ body {
 
 body.bg1 {
   background-image: url('/assets/images/bg1.jpg');
+}
+
+body.bg2 {
+  background-image: url('/assets/images/bg2.jpg');
 }
 
 h1 {
@@ -41,6 +45,11 @@ header {
 }
 
 a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+a.menu {
   color: white;
   text-decoration: none;
 }
