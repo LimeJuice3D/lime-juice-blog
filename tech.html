@@ -1,9 +1,9 @@
 ---
 layout: layout.html
 title: Tech
-bg-image: bg2
+bg-image: bg2.jpg
 ---
-{% for t in collections.tech %}
+{% for t in collections.tech reversed %}
 <h3><a href="{{ t.url }}">{{ t.data.title }}</a></h3>
 <p>{{ t.content }}</p>
 {% endfor %}

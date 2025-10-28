@@ -1,0 +1,10 @@
+---
+layout: layout.html
+title: Endling Trivium
+bg-image: bg3.png
+---
+{% for g in collections.game reversed %}
+<h3><a href="{{ g.url }}">{{ g.data.title }}</a></h3>
+<em>{{ g.date | date: "%Y-%m-%d" }}</em>
+<p>{{ g.content }}</p>
+{% endfor %}

@@ -1,0 +1,9 @@
+---
+layout: layout.html
+title: Art
+bg-image: bg4.png
+---
+{% for a in collections.art reversed %}
+<h3><a href="{{ a.url }}">{{ a.data.title }}</a></h3>
+<p>{{ a.content }}</p>
+{% endfor %}

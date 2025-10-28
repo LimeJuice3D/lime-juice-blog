@@ -1,8 +1,12 @@
-module.exports = function (eleventyConfig) {
- eleventyConfig.addPassthroughCopy("./assets/css/");
- eleventyConfig.addWatchTarget("./assets/css/");
+const embedYouTube = require("eleventy-plugin-youtube-embed");
 
- eleventyConfig.addPassthroughCopy("./assets/images/");
- eleventyConfig.addWatchTarget("./assets/images/");
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPassthroughCopy("./assets/css/");
+  eleventyConfig.addWatchTarget("./assets/css/");
+
+  eleventyConfig.addPassthroughCopy("./assets/images/");
+  eleventyConfig.addWatchTarget("./assets/images/");
+
+  eleventyConfig.addPlugin(embedYouTube);
 
 };
