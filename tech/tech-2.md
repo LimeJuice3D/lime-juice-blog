@@ -1,10 +1,10 @@
 ---
 tags: tech
 title: LegendVC
+link: https://github.com/LimeJuice3D/LegendVC
 ---
-A Version Control software designed to manage large files and projects.
+A Version Control software designed to manage large files and projects. Currently in development, uses JSON to manage the repository's structure and pointers to real data.
 
-[Link to Github](https://github.com/LimeJuice3D/LegendVC)
-
+{% include '_github.html' %}
 
 

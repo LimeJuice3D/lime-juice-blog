@@ -56,7 +56,7 @@ div.menu {
 }
 
 a.menu {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   text-decoration: none;
   padding: 10px;
@@ -67,6 +67,7 @@ a.menu {
 
 a.title {
   font-size: 32px;
+  color: white;
 }
 
 div.blogs {
@@ -77,3 +78,28 @@ div.blogs {
   padding: 10px;
   backdrop-filter: blur(4px);
 }
+
+img.github {
+  border-radius: 100%;
+  width: 50px;
+}
+
+img.youtube {
+  width: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
