@@ -1,7 +1,7 @@
 ---
 tags: art
 title: Signalis - Train Ride
-link: https://www.youtube.com/watch?v=pVOzH_LcxJY
+yt_link: https://www.youtube.com/watch?v=pVOzH_LcxJY
 
 ---
 An animated interpretation of the Train Ride scene from Signalis.

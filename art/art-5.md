@@ -1,7 +1,7 @@
 ---
 tags: art
 title: Johnny Vs Chipp - GGST Animation
-link: https://www.youtube.com/watch?v=I_Jk9Bslh_s
+yt_link: https://www.youtube.com/watch?v=I_Jk9Bslh_s
 ---
 Fight scene between the Guilty Gear characters Johnny and Chipp.
 

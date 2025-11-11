@@ -1,7 +1,7 @@
 ---
 tags: art
 title: Interlinked
-link: https://www.youtube.com/watch?v=nJw1A6VwtPY
+yt_link: https://www.youtube.com/watch?v=nJw1A6VwtPY
 ---
 A group project for my first-year VFX course.
 

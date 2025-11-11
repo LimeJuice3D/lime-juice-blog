@@ -2,9 +2,15 @@
 layout: layout.html
 title: Main Page
 bg-image: bg1.jpg
+gh_link: https://github.com/LimeJuice3D
+yt_link: https://www.youtube.com/@limejuice6285
 ---
-{% for b in collections.blog reversed %}
-<h3><a href="{{ b.url }}">{{ b.data.title }}</a></h3>
-<em>{{ b.date | date: "%Y-%m-%d" }}</em>
-<p>{{ b.content }}</p>
-{% endfor %}
+
+<p>Welcome to Liam D'Arcy's Website!</p>
+<em>AKA LimeJuice3D, LimeJuice55, etc</em>
+
+<div>
+  <p>Github Link: </p> {% include '_github.html' %}
+  <p>Youtube Link: </p> {% include '_youtube.html' %}
+</div>
+
